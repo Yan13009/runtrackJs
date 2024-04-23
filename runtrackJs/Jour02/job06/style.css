@@ -1,0 +1,18 @@
+body {
+    min-height: 4096px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Modifier la hauteur selon vos besoins */
+}
+
+.plateforme-style {
+    /* Styles pour La Plateforme_ */
+    background-color: #0C2340; /* Couleur de fond */
+    color: #FFC72C; /* Couleur de texte */
+    font-family: 'Arial', sans-serif; /* Police de caractère */
+    /* Ajoutez d'autres styles selon vos besoins */
+}

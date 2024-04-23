@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrage de Pokémon</title>
+</head>
+<body>
+    <h1>Filtrage de Pokémon</h1>
+    <form id="filterForm">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id">
+
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="">Tous les types</option>
+            <option value="Normal">Normal</option>
+            <option value="Feu">Feu</option>
+            <option value="Eau">Eau</option>
+            <!-- Ajoutez d'autres types selon vos données -->
+        </select>
+
+        <input type="button" value="Filtrer" id="filterButton">
+    </form>
+
+    <div id="pokemonList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
